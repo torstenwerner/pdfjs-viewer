@@ -4,6 +4,11 @@
       "polymer-2"
     ]
   },
+  "extraDependencies": [
+    "bower_components/webcomponentsjs/*.js",
+    "bower_components/pdfjs-dist/build/pdf.worker.min.js",
+    "!bower_components/webcomponentsjs/gulpfile.js"
+  ],
   "builds": [
     {
       "preset": "es6-bundled"
