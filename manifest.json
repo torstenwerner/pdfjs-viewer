@@ -1,0 +1,7 @@
+{
+  "name": "pdfjs-playground",
+  "short_name": "pdfjs-playground",
+  "description": "a simple pdf viewer",
+  "start_url": "/",
+  "display": "standalone"
+}

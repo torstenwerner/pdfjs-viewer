@@ -1,0 +1,32 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="pdfjs-viewer">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+    class PdfjsViewer extends Polymer.Element {
+      static get is() { return 'pdfjs-viewer'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'pdfjs-viewer'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(PdfjsViewer.is, PdfjsViewer);
+  </script>
+</dom-module>
